@@ -1,0 +1,299 @@
+@media screen and (max-width: 1400px){
+    .logo_img > img
+    {
+        width:180px;
+        height: 100%
+    }
+    .main_menu > li > a
+    {
+        margin: 0;
+    }
+    .best
+    {
+        font-size: 24px;
+        padding-top: 140px;
+    }
+    /* .ex
+    {
+        font-size: 136px;
+        font-weight: bolder;
+    } */
+    .us
+    {
+        font-size: 36px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .line
+    {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .prepare
+    {
+        width: 50%;
+        font-family: var(--font_roboto);
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .logo_img > img
+    {
+        width:180px;
+        height: 100%
+    }
+    .main_menu > li > a
+    {
+        margin: 0;
+    }
+    .best
+    {
+        font-size: 24px;
+    }
+    .slider-img{
+        height: 100vh;
+    }
+    
+    .bg_white
+    {
+        position: relative;
+        top: -50px;
+        left: 0;
+    }
+    .us
+    {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .line
+    {
+        font-size: 20px;
+    }
+    .become
+    {
+        padding:10px 5px !important;
+    }
+    .prepare
+    {
+        width: 45%;
+        font-family: var(--font_roboto);
+        font-size: 36px;
+    }
+    .find
+    {
+        padding-top: 20px;
+    }
+    .sint_1
+    {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+    .one
+    {
+        margin-bottom: 20px;
+    }
+    .sint
+    {
+        width: 100%;
+    }
+    .bg_white
+    {
+        position: relative;
+        top:10px;
+        left: 0;
+    }
+    .text_prt
+    {
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .best
+    {
+        font-size: 90px;
+    }
+    /* .ex
+    {
+        font-size: 136px;
+        font-weight: bolder;
+    } */
+    .us
+    {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .line
+    {
+        font-size: 20px;
+    }
+    .bg_img
+    {
+        padding-left: 50px;
+    }
+    .prepare
+    {
+        width: 90%;
+        font-size: 36px;
+    }
+    .bg_white
+    {
+        position: relative;
+        top: 50px;
+        right:0px;
+    }
+    .find
+    {
+        padding-top: 20px;
+    }
+    .sint1
+    {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .one
+    {
+        margin-bottom: 20px;
+    }
+    .one_img > img
+    {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }  
+    .customer
+    {
+        font-size:25px;
+    }
+    .one_1
+    {
+        margin-bottom:0px ;
+    }
+    .main_one_1
+    {
+        margin-bottom: 60px;
+    } 
+    .testi
+    {
+        margin: 40px 0;
+    }
+    .customer
+    {
+        font-size: 30px;
+    }
+    .one_map
+    {
+        margin-bottom: 30px;
+    }
+    .navbar-collapse
+    {
+        background-color:white;
+    }
+    .main_menu > li >a
+    {
+        color: black;
+        font-weight: bold;
+    }
+    .main_menu > li >a.active
+    {
+        color: black !important;
+    }
+    .mob_menu
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: white;
+    }
+    .slider-img{
+        height: 100vh;
+    }
+    .best
+    {
+        font-size: 24px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .spacer
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .customer
+    {
+        font-size:25px;
+    }
+    .testi
+    {
+        margin: 20px 0;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .title
+    {
+        font-family: var(--font_roboto);
+        font-size: 30px;
+        color: #212529;
+    }
+    .line_hr
+    {
+        border-bottom: 3px solid var(--color_puple);
+        width: 40%;
+        margin: auto;
+        opacity: .6;
+    }
+    .customer
+    {
+        font-size:20px;
+    }
+    .need
+    {
+        padding-top: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .ex
+    {
+        font-size: 110px;
+        font-weight: bold;
+    }
+    .part_1
+    {
+        text-align: center;
+    }
+    .link > a > p
+    {
+        text-align: center;
+    }
+    .copy_full
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .copy_f
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .testi
+    {
+        margin: 40px 0;
+    }
+    .lorem
+    {
+        width:80%;
+    }
+    .img_404 > img
+    {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 100px;
+    }
+    
+}

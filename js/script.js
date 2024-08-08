@@ -1,0 +1,63 @@
+$(document).ready(function(){
+    $('#one').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText:['<i class="fa-solid fa-arrow-left"></i>','<i class="fa-solid fa-arrow-right"></i>'],
+    autoplay:true,
+    autoplayTimeout:4000,
+    dots:false,
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+$('#two').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    responsive:{
+        400:{
+            items:2
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:8
+        }
+    }
+})
+
+$('#three').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+});
